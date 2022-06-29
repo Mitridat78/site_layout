@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normilize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Рестораны Киева</title>
+</head>
+
+<body style="font-family: Roboto, Arial, Helvetica, sans-serif">
+  
+    <!-- d-flex - создание контейнера Flexbox (внешняя граница контейнера), 
+    flex-column - расположить вертикально элементы (на тот случай если страница изменит размер),
+    flex-md-row - отобразить элементы по горизонтали для средних экранов и выше,
+    align-items-center - располагаем строки в центре флекса,
+    p-3 - пейдинг (отступ внутри контейнера (3 = 1rem (16px if font-size is 16px))),
+    px-md-4 - левый и правый пейдинг для средних экранов с размером 1.5rem (24px if font-size is 16px),
+    mb-3 - маржа нижней границы до следующего блока, размер 1rem (16px if font-size is 16px),
+    bg-white - белый цвет фона флекса,
+    border-bottom - нижняя граница,
+    shadow-sm - тень и ее размер -->
+  
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-5 mb-1 bg-white border-bottom shadow-sm">
+    <a href="./index.html" class="my-0 mr-md-auto ml-md-0 ml-lg-5"><img src="img/logo.svg" alt=""></a>
+    <nav class="my-2 my-md-0 mr-md-5">
+      <a class="p-2 text-dark" href="#" id="a-link">Рестораны</a>
+      <a class="p-2 text-dark" href="#" id="a-link">Кафе</a>
+      <a class="p-2 text-dark" href="#" id="a-link">Закусочные</a>
+      <a class="p-2 text-dark" href="#" id="a-link">Рецепты</a>
+    </nav>
+      <div class="mr-lg-5"> <!-- div для того чтобы сделать кнопку и корзину одним блоком, 
+        чтобы было легче управлять этим блоком -->
+        <a class="btn p-2 btn-outline-dark mr-4" href="#">Войти</a>
+        <a href="#"><img src="img/food_basket.png" alt="" style="width: 30px;"></a>
+      </div>
+      <!-- ниже если понадобится корзину разместить под кнопкой -->
+      <!--<a class="btn p-2 btn-outline-dark text-monospace mr-4" href="#">Войти</a>
+      <a href="#"><img class="mt-3 mt-sm-3 mt-md-0 mr-sm-3 mr-3 mr-md-0" src="img/food_basket.png" alt="" style="width: 30px;"></a>
+      -->
+  </div> <!-- end class flex -->
+
+    <img class="main-img" src="./img/euro.png" alt="" width="100%">
+    
+<!--    <div class="container-fluid"> -->
+    <div class="d-flex flex-md-row border-bottom align-items-center">
+      <nav class="navbar navbar-expand-sm navbar-light ml-lg-5 ml-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" id="bottom-link">Закуски</a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" id="bottom-link">Салаты</a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" id="bottom-link">Супы</a></li>
+              </ul>
+            
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" id="bottom-link">Горячие блюда</a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" id="bottom-link">Гарниры</a></li>
+              </ul>
+              <ul class="navbar-nav">
+               <li class="nav-item"><a class="nav-link" href="#" id="bottom-link">Десерты</a></li>
+              </ul>
+          </div>
+      </nav>
+    </div> <!-- end class flex -->
+    <!--</div>-->
+    
+    <div class="container-fluid">   
+      <div class="row mt-1 ml-0 mr-0 ml-xl-5 mr-xl-5 ml-lg-5 mr-lg-5"> <!-- mt-3 ml-0 mr-0 ml-xl-5 mr-xl-5 ml-lg-5 mr-lg-5 -->
+        <div class="col-sm-12 col-md-12">
+          <h1>Закуски</h1>
+        </div>
+      </div> <!-- end div class row -->
+     
+        <!-- первый ряд -->
+      <div class="row mb-5 mt-3 ml-0 mr-0 ml-xl-5 ml-lg-5 mr-lg-4">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card d-flex flex-row mb-5">
+            <div class="card-body">
+              <h5 class="card-title">Сельдь на бородинском хлебе</h5>
+              <p class="card-text text-muted">С яйцом и огурцом</p>
+              <p class="card-text font-weight-bold">250грн.</p>
+            </div> <!-- end div card body-->
+            <img src="./img/Capture1.png" alt="">
+          </div> <!-- end div card -->
+        </div> <!-- end div column -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card d-flex flex-row mb-5">
+            <div class="card-body">
+              <h5 class="card-title">Соленья ассорти</h5>
+              <p class="card-text text-muted">Огурцы, помидоры, капуста</p>
+              <p class="card-text font-weight-bold mt-4">150грн.</p>
+            </div> <!-- end div card body-->
+              <img src="./img/Capture2.png" alt="">
+          </div> <!-- end div card -->
+        </div> <!-- end div column -->
+        <!-- втрой ряд -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card d-flex flex-row mb-5">
+            <div class="card-body">
+              <h5 class="card-title">Грибы маринованные</h5>
+              <p class="card-text text-muted">Шампиньоны</p>
+              <p class="card-text font-weight-bold mt-4">220грн.</p>
+            </div> <!-- end div card body-->
+              <img src="./img/Capture4.png" alt="">
+          </div> <!-- end div card -->
+        </div> <!-- end div column -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card d-flex flex-row mb-5">
+            <div class="card-body">
+              <h5 class="card-title">Сало домашнее с горчицей</h5>
+              <p class="card-text text-muted">Сало, яйцо, горчица</p>
+            <!--  <div class="card-footer"></div>-->
+              <p class="card-text font-weight-bold mt-4">180грн.</p>
+            </div> <!-- end div card body-->
+              <img src="./img/Capture5.png" alt="">
+          </div> <!-- end div card -->
+        </div> <!-- end div column -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card d-flex flex-row mb-5">
+            <div class="card-body">
+              <h5 class="card-title">Малосольная семга</h5>
+              <p class="card-text text-muted">Семга и соль</p>
+              <p class="card-text font-weight-bold mt-4">350грн.</p>
+            </div> <!-- end div card body-->
+              <img src="./img/Capture6.png" alt="">
+          </div> <!-- end div card -->
+        </div> <!-- end div column -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card d-flex flex-row mb-5">
+            <div class="card-body">
+              <h5 class="card-title">Язык говяжий с хреном</h5>
+              <p class="card-text text-muted">Язык, хрен, салат</p>
+              <p class="card-text font-weight-bold mt-4">250грн.</p>
+            </div> <!-- end div card body-->
+              <img src="./img/Capture7.png" alt="">
+          </div> <!-- end div card -->
+        </div> <!-- end div column -->
+      </div>  <!-- end div row -->
+    </div> <!-- end div container fluid -->
+        
+      <footer class="text-white border-top" style="background-color: #262626;"><!-- ml-0 mr-0 ml-xl-5 mr-xl-5 ml-lg-5 mr-lg-5">-->
+      <div class="container-fluid">
+        <!-- первая горизонтальная линия -->
+        <div class="border border-top-0 border-left-0 border-right-0 mb-3 mt-5 ml-0 mr-0 ml-xl-5 ml-lg-5 mr-lg-5">
+          <div class="row mb-5 mt-3 ml-0 mr-0">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <ul class="list-unstyled mt-5">
+              <li> 
+                <img src="img/white-logo.svg" alt="">
+              </li>
+              </ul>
+            </div> <!-- end div column -->
+          </div>  <!-- end div row -->
+        </div> <!-- end div border -->
+        <!-- div for footer -->
+        
+      <!-- class border for line in block -->
+      <div class="border border-top-0 border-left-0 border-right-0 mb-3 mt-5 ml-0 mr-0 ml-xl-5 ml-lg-5 mr-lg-5">  
+        <div class="row mb-3 mt-5 ml-0 mr-0"> <!-- ml-xl-5 ml-lg-5 ml-5 mb-2 mt-5">-->  
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">
+                <div class="form-group">
+                  <select style="width:50%;" class="form-control bg-dark text-white" id="sel1" name="sellist1">
+                    <option>Українська</option>
+                    <option>Русский</option>
+                    <option>Английский</option>
+                  </select>
+                </div> <!-- end div form-group -->
+              </li>
+              <li class="mt-4 mb-3" style="font-size: 18px;"><span class="text-success">#</span>UberEats</li>
+              <li>
+                <a href=""><img src="img/facebook.png" alt=""></a>
+                <a href=""><img src="img/twitter.png" alt=""></a>
+                <a href=""><img src="img/instagram.png" alt=""></a>
+              </li>
+            </ul>
+          </div> <!-- end div column -->
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <ul class="list-unstyled mb-5">
+              <li class="mb-4"><a href="#" class="footer-link">Об UberEats</a></li>
+              <li class="mb-4"><a href="#" class="footer-link">Станьте партнёром по доставке</a></li>
+              <li class="mb-4"><a href="#" class="footer-link">Станьте парнёром-рестораном</a></li>
+            </ul>
+          </div> <!-- end div column -->
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <ul class="list-unstyled mb-5 ml-md-5 ml-lg-0">
+              <li class="mb-4"><a href="#" class="footer-link">Все города</a></li>
+              <li class="mb-4"><a href="#" class="footer-link">Цены</a></li>
+              <li class="mb-4"><a href="#" class="footer-link">Помощь</a></li>
+              <li>FAQs</li>
+            </ul>
+          </div> <!-- end div column -->
+        </div> <!-- end div row for footer -->
+      </div> <!-- end div line (border) -->
+        
+        <!-- вторая горизонтальная лииня, значки гугл плая и аппстора -->
+      <!-- class border for line in block -->  
+      <div class="border border-top-0 border-left-0 border-right-0 mb-4 mt-5 ml-0 mr-0 ml-xl-5 ml-lg-5 mr-lg-5">    
+        <div class="row ml-5 mb-5 mt-1 mx-auto"> <!-- mx-auto для правой и левой границы -->
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center">
+              <img src="img/App_Store.png" alt="">
+              <img class="ml-5" src="img/Google_Play.png" alt=""><!-- class="ml-5" - делаем отступ между кнопками -->
+            </div>
+          </div> <!-- end div column -->
+        </div>  <!-- end div row -->
+      </div>
+        
+        <!-- последний блок -->
+      <div class="border border-0 mb-4 mt-5 ml-0 mr-0 ml-xl-4 ml-lg-4 mr-lg-5">
+        <div class="row mb-5 mt-3 ml-0 mr-0 ml-xl-4 ml-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="mb-3 mb-lg-5">
+              <span><a href="#" class="footer-link">© 2017 Uber Technologies Inc.</a></span>
+            </div>
+          </div> <!-- end div column -->
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="mb-3 mb-lg-5">
+              <span><a href="#" class="footer-link">Обработка персональных данных</a></span>
+            </div>
+          </div> <!-- end div column -->
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="mb-3 mb-lg-5 ml-md-5 ml-lg-0">
+              <span><a href="#" class="footer-link">Пользовательское соглашение</a></span>
+              <a href="#">
+                <img class="mb-3" style="float: right;" src="img/btn-up.png" alt="">  
+              </a>
+            </div>
+          </div> <!-- end div column -->
+        </div>  <!-- end div row -->
+      </div>
+      </div> <!-- end div container fluid -->
+
+    </footer>  
+  
+  <!-- скрипт бутстрапа -->       
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- END SCRIPT-->
+</body>
+</html>

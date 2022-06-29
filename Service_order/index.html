@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    -->
+    <script src="https://kit.fontawesome.com/e2a1423284.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normilize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <title>Сервис заказа услуг</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid border-bottom shadow-sm">
+            <nav class="navbar navbar-expand-md justify-content-sm-between justify-content-center ml-0 ml-lg-4 mt-3 mb-3">
+                <a class="navbar-brand" href="#">Logo</a>
+                <div class="form-inline ml-0 ml-lg-0 ml-xl-4">
+                    <select class="form-control" id="sel1">
+                        <option>Сделать заказ</option>
+                        <option>Строительные услуги</option>
+                        <option>Курьерские услуги</option>
+                        <option>Дизайнерские услуги</option>
+                        <option>Работы по дому</option>
+                        <option>Услуги няни</option>
+                        <option>Ремонт техники</option>
+                    </select>
+                </div> 
+                <button class="navbar-toggler navbar-light d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav flex-row justify-content-sm-between justify-content-center" id="collapsibleNavId">  
+                    <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-4 ml-lg-0 mr-4 mr-md-auto my-md-0 my-lg-0">
+                        <input class="form-control d-none d-sm-inline" type="text" placeholder="Что нужно сделать">
+                        <button class="btn btn-secondary d-md-none d-sm-none d-none d-lg-none d-xl-inline mr-2 my-sm-0" type="submit">Найти</button>
+                        <button class="btn btn-secondary d-xl-none my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <div class="form-inline mr-3 mr-md-2 mr-lg-4 ml-0">
+                        <select class="form-control border-0" id="sel1">
+                            <option>UA</option>
+                            <option>EN</option>
+                            <option>RU</option>
+                        </select>
+                    </div> 
+                    
+                    <div class="mr-0 mr-lg-5">
+                        <span class="mr-4 mr-md-2 d-md-none d-sm-none d-none d-lg-none d-xl-inline"><a class="black-link" href="#">Войти</a></span>
+                        <span class="d-xl-none mr-4 mr-md-2"><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></span>
+                        <span class="btn btn-secondary d-md-none d-sm-none d-none d-lg-none d-xl-inline">Стать специалистом</span>
+                        <span class="btn btn-secondary d-xl-none"><i class="fa-solid fa-user"></i></span>
+                    </div>
+                </div> <!-- end div collapse -->
+            </nav>
+        </div>     
+    </header>
+    
+    <div class="container my-img">
+        <h1 class="text-center text-white display-4 mb-5">Сервис заказа услуг</h1>
+        <p class="text-center text-white mb-5" style="font-size: 20px;">Тысячи исполнителей ждут ваших заказов</p>
+        <div class="row no-gutters justify-content-center">
+            <div class="col-lg-6">
+                <input class="form-control form-control-lg border border-secondary rounded-0" type="text" placeholder="Что нужно сделать">
+            </div>
+            <div class="col-lg-4">
+                <button class="btn btn-secondary btn-block btn-lg border border-dark rounded-0 mt-2 mt-md-2 mt-lg-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Найти</button>
+            </div>
+        </div> <!-- end row -->
+        <div class="row text-white text-center mt-5" style="font-size: 20px;">
+            <div class="col-lg-6 col-md-6 col-12 mb-3 mb-md-0">
+                <a href="#anchor2" class="white-link"><i class="fa-regular fa-circle-question align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Как это работает</span></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <a href="#anchor1" class="white-link"><i class="fa-solid fa-grip-vertical align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Перечень услуг</span></a>
+            </div>
+        </div> <!-- end div row -->
+    </div> <!-- end div container img -->
+
+    <div class="container">    
+        <div class="row no-gutters mt-4 mb-4 text-muted text-center">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-people-group" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Фриланс</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-truck" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Доставка</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-pump-soap" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Клининг</p>       
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-screwdriver-wrench" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Ремонт</p>    
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-graduation-cap" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Учеба</p>  
+                </a>  
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-tachograph-digital" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Сайты</p>    
+                </a>
+            </div>
+        </div> <!-- end div row -->   
+        <hr>
+        <div class="row ml-md-3" id="anchor1">
+            <div class="col-lg-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-photo-film text-warning mt-4" style="font-size: 2rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Фото, видео услуги</h4>
+                            <div class="small">Монтаж видео</div>
+                            <div class="small">Обработка фото</div>
+                            <div class="small">Проведение съемок</div>
+                            <div class="small">Оцифровка фото</div>
+                            <div class="small">Оцифровка видео</div>
+                            <div class="small">Свадебная съемка</div>
+                            <div class="small">Студийная съемка</div>
+                            <div class="small">Выпускной</div>
+                            <div class="small">Другие услуги</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-hammer text-success mt-4" style="font-size: 2rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Строительные работы</h4>
+                            <div class="small">Фундамент</div>
+                            <div class="small">Кладка кирпича</div>
+                            <div class="small">Установка перекрытий</div>
+                            <div class="small">Установка дверей</div>
+                            <div class="small">Кладка кафеля</div>
+                            <div class="small">Поклейка обоев</div>
+                            <div class="small">Укладка ламината</div>
+                            <div class="small">Установка заборов</div>
+                            <div class="small">Другие работы</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-kit-medical text-danger mt-4" style="font-size: 2rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Красота и здоровье</h4>
+                            <div class="small">Медицина</div>
+                            <div class="small">Мануальная терапия</div>
+                            <div class="small">Массаж</div>
+                            <div class="small">Брови</div>
+                            <div class="small">Ресницы</div>
+                            <div class="small">Стрижка</div>
+                            <div class="small">Покраска</div>
+                            <div class="small">Маникюр</div>
+                            <div class="small">Другие услуги</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-screwdriver-wrench mt-4" style="font-size: 2rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Ремонт бытовой техники</h4>
+                            <div class="small">Ремонт телевизоров</div>
+                            <div class="small">Ремонт холодильников</div>
+                            <div class="small">Ремонт микроволновок</div>
+                            <div class="small">Ремонт фото, видео</div>
+                            <div class="small">Ремонт компьютеров</div>
+                            <div class="small">Ремонт планшетов</div>
+                            <div class="small">Ремонт телефонов</div>
+                            <div class="small">Установка бойлеров</div>
+                            <div class="small">Другие услуги</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="d-flex flex-row">
+                        <i class="fa-brands fa-wordpress-simple text-primary mt-4" style="font-size: 2rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Сайты</h4>
+                            <div class="small">Фронтенд</div>
+                            <div class="small">Бэкенд</div>
+                            <div class="small">Лендингы</div>
+                            <div class="small">Сайт-визитка</div>
+                            <div class="small">Интернет-магазин</div>
+                            <div class="small">Корпоративный сайт</div>
+                            <div class="small">Новостной сайт</div>
+                            <div class="small">Блог</div>
+                            <div class="small">Другие услуги</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end div row -->
+        <hr>
+<!--        <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-4 ml-lg-0 mr-4 mr-md-auto my-md-0 my-lg-0">-->
+        <h3 class="text-center mt-3 mb-3">Создать заявку</h3>
+        <div class="row no-gutters justify-content-center mb-5">
+            <div class="col-lg-4 col-md-6">
+                <input class="form-control mt-2" type="text" placeholder="Что нужно сделать">            
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <select class="form-control mt-2" id="sel1">
+                    <option>Ваш город</option>
+                    <option>Киев</option>
+                    <option>Запорожье</option>
+                    <option>Днепр</option>
+                    <option>Харьков</option>
+                    <option>Кропивницкий</option>
+                    <option>Полтава</option>
+                </select>
+            </div>
+        
+            <div class="col-lg-3 col-md-9">
+                <button class="btn btn-secondary btn-block mt-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Найти</button>
+                <!--<button class="btn btn-secondary d-xl-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>-->
+            </div>
+        </div> <!-- end div row -->
+        <hr>
+
+        <h3 class="text-center mt-5" id="anchor2">Как это работает?</h3>
+        <div class="row text-center mt-5 mb-5">
+            <div class="col-md-4 text-success mb-3 mb-md-0">
+                <i class="fa-regular fa-folder" style="font-size: 2rem;"></i>
+                <p>Создайте заявку на услугу</p>
+            </div>
+            <div class="col-md-4 text-primary mb-3 mb-md-0">
+                <i class="fa-solid fa-person-circle-check" style="font-size: 2rem;"></i>
+                <p>Выбирите исполнителя</p>
+            </div>
+            <div class="col-md-4 text-warning mb-3 mb-md-0">
+                <i class="fa-solid fa-folder-plus" style="font-size: 2rem;"></i>
+                <p>Оставьте отзыв и закройте заявку</p>
+            </div>
+        </div>
+        
+    </div> <!-- end div container -->
+    
+    
+    <footer style="background-color: grey; color: white;">
+        <div class="container">
+            <div class="row ml-auto small">
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">Как это работает?</li>
+                        <li class="mb-2">Бизнес-партнерам</li>
+                        <li class="mb-2">Контакты</li>
+                        <li class="mb-2">Наши партнеры</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">Как зарегистрироваться?</li>
+                        <li class="mb-2">Как заказать услугу?</li>
+                        <li class="mb-2">Как стать исполнителем?</li>
+                        <li class="mb-2">Помощь</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">FAQ (вопросы и ответы)</li>
+                        <li class="mb-2">Политика конфиденциальности</li>
+                        <li class="mb-2">Поддержка</li>
+                        <li class="mb-2">Публичная оферта</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">Пн - Пт: с 9-00 до 19-00</li>
+                        <li class="mb-2">Сб - Вс: с 10-00 до 17-00</li>
+                        <li class="mb-2">г. Киев</li>
+                        <li class="mb-2">Степана Бандеры, 28</li>
+                        <i class="fa-brands fa-facebook" style="font-size: 2rem;"></i>
+                        <i class="fa-brands fa-instagram ml-2" style="font-size: 2rem;"></i>
+                        <i class="fa-brands fa-twitter-square ml-2" style="font-size: 2rem;"></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- for bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- END SCRIPT-->
+</body>
+</html>

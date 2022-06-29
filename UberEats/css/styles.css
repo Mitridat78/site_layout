@@ -1,0 +1,30 @@
+#a-link:hover {
+    background-color: rgb(243, 240, 240);
+    border-radius: 15px;
+    text-decoration: none;
+}
+.p-card-title {
+    font-size: 18px;
+}
+#bottom-link:visited {
+    text-decoration: none;
+    color: black;
+}
+#bottom-link:hover, #bottom-link:focus {
+    text-decoration: none;
+    color: green;
+}
+.footer-link:hover, .footer-link:active, .footer-link:visited {
+    text-decoration: none;
+    color: white;
+}
+.hover-link:hover, .hover-link:active, .hover-link:visited {
+    border: 1px solid rgb(206, 202, 202);
+    text-decoration: none;
+    color: black;
+}
+.main-img {
+    background-size: cover;
+    /*сохраняем пропорции*/
+    background-position: center center;
+}

@@ -1,0 +1,24 @@
+/* styles for service order */
+body {
+  font-size: 18px;
+}
+.my-img {
+  background: url("../img/dsBuffer.jpg") center no-repeat;
+  background-size: cover; /*сохраняем пропорции*/
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+a, a:visited, a:focus, a:active, a:hover {
+  text-decoration: none;
+  color: black;
+}
+.white-link, .white-link:visited, .white-link:focus, .white-link:active, .white-link:hover {
+  text-decoration: none;
+  color: white;
+}
+/*.green-link:visited, .green-link:focus, .green-link:active, .green-link:hover {
+  color: green;
+  text-decoration: none;
+}
+*/
