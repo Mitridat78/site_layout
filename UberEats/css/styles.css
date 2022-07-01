@@ -14,11 +14,11 @@
     text-decoration: none;
     color: green;
 }
-.footer-link:hover, .footer-link:active, .footer-link:visited {
+.footer-link, .footer-link:focus, .footer-link:hover, .footer-link:active, .footer-link:visited {
     text-decoration: none;
     color: white;
 }
-.hover-link:hover, .hover-link:active, .hover-link:visited {
+.hover-link, .hover-link:focus, .hover-link:hover, .hover-link:active, .hover-link:visited {
     border: 1px solid rgb(206, 202, 202);
     text-decoration: none;
     color: black;
