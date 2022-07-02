@@ -27,5 +27,9 @@
     margin-left: 70px;
     margin-right: 70px;
     background-color: white;
+/*    color: blue;*/
+}
+.link-img-bottom, .link-img-bottom:hover, .link-img-bottom:visited, .link-img-bottom:focus, .link-img-bottom:active {
+    text-decoration: none;
     color: blue;
 }
