@@ -6,3 +6,22 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+.img-top-center {
+    background: url("../img/fon.webp") center no-repeat;
+    background-size: cover; /*сохраняем пропорции*/
+    background-position: center center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.nomoove {
+    position: sticky;
+    top: 0;
+}
+.text-photo-center {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    color: blue;
+}
