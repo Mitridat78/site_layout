@@ -40,3 +40,7 @@
     background-color: blue; 
     color: white;
 }
+.link-social, .link-social:visited, .link-social:focus, .link-social:active, .link-social:hover {
+    text-decoration: none;
+    color: white;
+}
